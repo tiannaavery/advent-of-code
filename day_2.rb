@@ -18,7 +18,7 @@ def find_frequency_valid_passwords
   valid_passwords
 end
 
-def find_positionly_valid_passwords
+def find_positionally_valid_passwords
   valid_passwords = 0
 
   password_info = File.new("day_2_passwords.txt")
@@ -37,4 +37,4 @@ def find_positionly_valid_passwords
 end
 
 puts "there are *probably* #{find_frequency_valid_passwords} valid passwords, you beautiful being!"
-puts "just kidding, now #{find_positionly_valid_passwords} of them are valid"
+puts "just kidding, now #{find_positionally_valid_passwords} of them are valid"
