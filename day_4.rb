@@ -38,8 +38,8 @@ def stricter_validate_passports
 end
 
 def main
-  puts "maybe there are #{validate_passports} valid passports"
-  puts "but when things get stricter, there are #{stricter_validate_passports} valid passports"
+  puts "maybe there are #{validate_passports} valid passports" #192
+  puts "but when things get stricter, there are #{stricter_validate_passports} valid passports" #101
 end
 
 main()
